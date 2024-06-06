@@ -79,7 +79,7 @@ const person10 = { fullName: 'John doe' };
 // console.log(c)
 
 const n = Object.values(person10)[0];
-const a =n.split("");
+const a =n.split(" ");
 const b=a.reverse("");
-const c=b.join("");
+const c=b.join(" ");
 console.log(c)
