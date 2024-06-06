@@ -6,6 +6,11 @@ const userDetails = {
     'ayush': 'rai',
     'gopal': 'tharu'
 }
+const m = arr.map((item)=>{
+    if (userDetails[item])
+      return item+' '+userDetails[item]
+  }).filter(item=>item)
+  console.log(m)
 
 // expected output :
 // ['kaylin khanal', 'gopal tharu']
