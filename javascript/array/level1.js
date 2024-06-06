@@ -2,6 +2,14 @@
 
 const arr = [3,5,1,2,9,12]
 //write your code here
+const m = arr.filter((item,id)=>{
+    if (item % 3 ===0){
+        return item
+    }
+})
+console.log(m)
+
+
 
 
 //expected output---> [3,9,12]
@@ -14,3 +22,6 @@ const arr = [3,5,1,2,9,12]
 //console.log(filteredArr)
 
 //----------------
+
+
+
