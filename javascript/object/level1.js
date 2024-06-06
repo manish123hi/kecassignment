@@ -59,3 +59,4 @@ if (product10.price < 100) {
 } else {
     console.log(false);
 }
+
